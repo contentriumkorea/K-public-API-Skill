@@ -1,10 +1,10 @@
 ---
-name: k-publid-api-skill
+name: k-public-api-skill
 description: Use when finding, comparing, or integrating public APIs for Korean services (한국 API, 공공데이터, 지도, 날씨, 교통), or consulting public-apis-4Kr. Not for unrelated coding or general API design.
 license: MIT
 ---
 
-# K-publid-API-Skill
+# K-public-API-Skill
 
 Find suitable API candidates using the public-apis-4Kr catalog, then distinguish catalog claims from current provider documentation. Reply in the user's language. This is a reference skill, not an API connector or a grant of API access.
 

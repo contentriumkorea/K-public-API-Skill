@@ -1,14 +1,14 @@
-# K-publid-API-Skill — 설치 가능한 AI 스킬
+# K-public-API-Skill — 설치 가능한 AI 스킬
 
 이 저장소는 [yybmion/public-apis-4Kr](https://github.com/yybmion/public-apis-4Kr)의 포크에 **한국 API 탐색·검증용 Agent Skills 스킬**을 추가한 배포판입니다. 원본 API 목록과 저작권 표시는 아래에 유지합니다.
 
 - [스킬 설치·도구별 호환 안내](SKILLS.md)
-- [스킬 폴더](skills/k-publid-api-skill) · [스킬 전용 ZIP 다운로드](https://github.com/contentriumkorea/K-publid-API-Skill/releases/latest)
+- [스킬 폴더](skills/k-public-api-skill) · [스킬 전용 ZIP 다운로드](https://github.com/contentriumkorea/K-public-API-Skill/releases/latest)
 - Codex, Claude Code, Gemini CLI, Copilot, Cursor 등 표준 스킬 지원 도구용 공통 폴더. 모든 AI 앱에서의 설치를 보장하지 않으며, 확인 범위는 호환 안내에 명시합니다.
 
 ```text
 Install this skill from GitHub:
-https://github.com/contentriumkorea/K-publid-API-Skill/tree/main/skills/k-publid-api-skill
+https://github.com/contentriumkorea/K-public-API-Skill/tree/main/skills/k-public-api-skill
 ```
 
 API 자체를 일괄 연결하거나 인증키를 발급하는 프로그램은 아닙니다. 아래 목록은 원본 자료이며, 실제 사용 조건은 각 제공기관의 현재 공식 문서에서 확인하세요.

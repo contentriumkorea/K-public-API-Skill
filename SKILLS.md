@@ -1,4 +1,4 @@
-# K-publid-API-Skill — 설치·호환 안내
+# K-public-API-Skill — 설치·호환 안내
 
 한국 서비스에 필요한 공개 API를 찾고 비교할 때 사용하는 **호스트 중립적인 Agent Skills 참조 스킬**입니다. 원본 [yybmion/public-apis-4Kr](https://github.com/yybmion/public-apis-4Kr)의 API 목록을 탐색하고, 실제 제공기관 문서에서 조건을 확인하도록 안내합니다.
 
@@ -8,14 +8,14 @@
 
 ```text
 skills/
-└── k-publid-api-skill/
+└── k-public-api-skill/
     ├── SKILL.md
     ├── LICENSE
     └── references/
         └── catalog-guide.md
 ```
 
-설치 대상은 **`skills/k-publid-api-skill` 폴더 전체**입니다. 원본 저장소의 `scripts/`, `.github/`, 보고서, 이미지 등은 설치 대상이 아닙니다. 저장소를 포크하거나 클론하는 것만으로 스킬이 자동 설치되지는 않습니다.
+설치 대상은 **`skills/k-public-api-skill` 폴더 전체**입니다. 원본 저장소의 `scripts/`, `.github/`, 보고서, 이미지 등은 설치 대상이 아닙니다. 저장소를 포크하거나 클론하는 것만으로 스킬이 자동 설치되지는 않습니다.
 
 ## 가장 간단한 설치 요청
 
@@ -23,8 +23,8 @@ skills/
 
 ```text
 다음 GitHub 스킬을 현재 AI 도구의 공식 설치 기능 또는 공식 스킬 디렉터리로 설치해줘.
-저장소: https://github.com/contentriumkorea/K-publid-API-Skill
-스킬 경로: skills/k-publid-api-skill
+저장소: https://github.com/contentriumkorea/K-public-API-Skill
+스킬 경로: skills/k-public-api-skill
 SKILL.md와 참조 파일을 먼저 검토하고, 대상 스킬 폴더만 설치해줘.
 저장소의 셸 명령이나 관리용 스크립트는 실행하지 마.
 스킬 설치를 지원하지 않으면 설치했다고 하지 말고, 참고자료로 사용하는 방법을 알려줘.
@@ -37,7 +37,7 @@ SKILL.md와 참조 파일을 먼저 검토하고, 대상 스킬 폴더만 설치
 
 **문서 확인일: 2026-09-04.** 아래 표는 공식 문서에 기재된 설치 형식·경로입니다. 각 제품의 실제 설치·실행 시험을 모두 통과했다는 뜻이 아닙니다. 버전, 조직 정책, 요금제, 도구 권한에 따라 사용 가능 범위가 달라질 수 있습니다.
 
-경로는 **스킬 폴더를 넣을 부모 디렉터리**입니다. 예를 들어 Claude Code 프로젝트 경로는 `.claude/skills/k-publid-api-skill/SKILL.md`가 됩니다. `~`는 사용자 홈이며 Windows에서는 보통 `C:\Users\<사용자>`입니다.
+경로는 **스킬 폴더를 넣을 부모 디렉터리**입니다. 예를 들어 Claude Code 프로젝트 경로는 `.claude/skills/k-public-api-skill/SKILL.md`가 됩니다. `~`는 사용자 홈이며 Windows에서는 보통 `C:\Users\<사용자>`입니다.
 
 | 도구 | 프로젝트 설치 경로 | 사용자 설치 경로 / 방식 | 공식 근거 |
 | --- | --- | --- | --- |
@@ -69,13 +69,13 @@ SKILL.md와 참조 파일을 먼저 검토하고, 대상 스킬 폴더만 설치
 ### Codex
 
 ```text
-$skill-installer install the skill from https://github.com/contentriumkorea/K-publid-API-Skill at skills/k-publid-api-skill
+$skill-installer install the skill from https://github.com/contentriumkorea/K-public-API-Skill at skills/k-public-api-skill
 ```
 
 ### Gemini CLI
 
 ```sh
-gemini skills install https://github.com/contentriumkorea/K-publid-API-Skill.git --path skills/k-publid-api-skill --scope user
+gemini skills install https://github.com/contentriumkorea/K-public-API-Skill.git --path skills/k-public-api-skill --scope user
 ```
 
 프로젝트 범위는 `--scope workspace`입니다. 설치 검토·동의 단계는 건너뛰지 마세요.
@@ -85,29 +85,29 @@ gemini skills install https://github.com/contentriumkorea/K-publid-API-Skill.git
 GitHub CLI **2.90.0 이상, public preview**의 `gh skill` 기능을 사용하는 경우입니다. [공식 명령 규격](https://cli.github.com/manual/gh_skill_install)을 확인하고, 표시되는 설치 대상과 범위를 선택하세요.
 
 ```sh
-gh skill install contentriumkorea/K-publid-API-Skill skills/k-publid-api-skill
+gh skill install contentriumkorea/K-public-API-Skill skills/k-public-api-skill
 ```
 
 검토한 버전을 고정하려면 공식 `--pin` 옵션에 실제 릴리스 태그 또는 커밋 SHA를 지정할 수 있습니다. 오래된 GitHub CLI에 이 명령이 없다고 해서 스킬 자체가 호환되지 않는 것은 아닙니다.
 
 ### Cursor
 
-공식 문서의 `Customize → Rules → Add Rule → Remote Rule (Github)` 가져오기 기능 또는 위의 스킬 폴더 경로를 사용합니다. 가져온 뒤 `Customize → Skills`에서 `k-publid-api-skill`이 표시되는지 확인하세요.
+공식 문서의 `Customize → Rules → Add Rule → Remote Rule (Github)` 가져오기 기능 또는 위의 스킬 폴더 경로를 사용합니다. 가져온 뒤 `Customize → Skills`에서 `k-public-api-skill`이 표시되는지 확인하세요.
 
 ### Claude.ai ZIP 업로드
 
-1. [Releases](https://github.com/contentriumkorea/K-publid-API-Skill/releases/latest)에서 **`K-publid-API-Skill.zip`로 끝나는 스킬 전용 ZIP**을 받습니다.
+1. [Releases](https://github.com/contentriumkorea/K-public-API-Skill/releases/latest)에서 **`K-public-API-Skill.zip`로 끝나는 스킬 전용 ZIP**을 받습니다.
 2. `Customize → Skills → + → Create skill → Upload a skill`에서 업로드하고 활성화합니다.
-3. ZIP 안에 `k-publid-api-skill/SKILL.md`, `k-publid-api-skill/LICENSE`, `k-publid-api-skill/references/catalog-guide.md`가 있는지 확인합니다.
+3. ZIP 안에 `k-public-api-skill/SKILL.md`, `k-public-api-skill/LICENSE`, `k-public-api-skill/references/catalog-guide.md`가 있는지 확인합니다.
 
-GitHub의 저장소 전체 **Download ZIP / Source code (zip)**은 스킬 전용 ZIP이 아닙니다. ZIP 이름에 날짜가 붙어 있어도 내부 스킬 폴더 이름은 `k-publid-api-skill`로 고정됩니다.
+GitHub의 저장소 전체 **Download ZIP / Source code (zip)**은 스킬 전용 ZIP이 아닙니다. ZIP 이름에 날짜가 붙어 있어도 내부 스킬 폴더 이름은 `k-public-api-skill`로 고정됩니다.
 
 ## 선택 사항: 통합 설치기
 
 [Vercel의 skills CLI](https://github.com/vercel-labs/skills)는 여러 AI 개발 도구를 대상으로 GitHub 스킬을 설치하는 **별도의 오픈소스 설치기**입니다. 각 AI 제품의 공식 설치기와 동일한 것은 아닙니다. Node.js/npm이 필요하며 실행 시 설치기 코드를 다운로드·실행할 수 있으므로 신뢰 여부를 직접 검토한 뒤 사용하세요.
 
 ```sh
-npx skills add contentriumkorea/K-publid-API-Skill --skill k-publid-api-skill
+npx skills add contentriumkorea/K-public-API-Skill --skill k-public-api-skill
 ```
 
 상호작용 화면에서 원하는 AI 도구와 설치 범위만 선택합니다. 이 저장소는 모든 도구에 무조건 설치하는 `--all` 명령이나 원격 셸 설치 스크립트를 제공하지 않습니다.
@@ -116,12 +116,12 @@ npx skills add contentriumkorea/K-publid-API-Skill --skill k-publid-api-skill
 
 | 도구 | 확인 방법 |
 | --- | --- |
-| Codex | 스킬 목록 또는 `$k-publid-api-skill`; 변경이 안 보이면 새 세션/재시작 |
-| Claude Code | `/k-publid-api-skill`; 최상위 skills 디렉터리를 세션 도중 처음 만들었다면 재시작 |
+| Codex | 스킬 목록 또는 `$k-public-api-skill`; 변경이 안 보이면 새 세션/재시작 |
+| Claude Code | `/k-public-api-skill`; 최상위 skills 디렉터리를 세션 도중 처음 만들었다면 재시작 |
 | Gemini CLI | `/skills list`, 필요하면 `/skills reload` |
-| Copilot CLI | `/skills reload`, `/skills info k-publid-api-skill` |
-| VS Code / Cursor / Cline | Skills UI 또는 `/k-publid-api-skill`; 목록에 없으면 경로와 제품 버전 확인 |
-| Windsurf Cascade | Skills UI 또는 `@k-publid-api-skill` |
+| Copilot CLI | `/skills reload`, `/skills info k-public-api-skill` |
+| VS Code / Cursor / Cline | Skills UI 또는 `/k-public-api-skill`; 목록에 없으면 경로와 제품 버전 확인 |
+| Windsurf Cascade | Skills UI 또는 `@k-public-api-skill` |
 | OpenCode / Antigravity IDE | 사용 가능한 스킬 목록 확인 후 이름을 명시해 사용 요청 |
 | Claude.ai | 업로드한 스킬의 활성화 상태와 사용 시 로딩 여부 확인 |
 
@@ -149,4 +149,4 @@ npx skills add contentriumkorea/K-publid-API-Skill --skill k-publid-api-skill
 - 스킬의 동봉 안내는 소수의 탐색 링크와 분야별 경로이며 전체 API 목록의 복사본이 아닙니다. 최신 카탈로그와 제공기관 문서는 사용 시 확인합니다.
 - 포크, 설치된 스킬, ZIP은 자동으로 동기화되지 않습니다. 업데이트할 때 원본 변경과 스킬 변경을 검토하고 새 릴리스를 배포하세요.
 - 검증 대상은 표준 메타데이터, 폴더 독립성, 상대 참조, ZIP 내부 구조 및 에이전트의 자료 검색·불확실성 처리입니다. 모든 AI 제품에 대한 실제 설치·실행 검증은 하지 않았습니다.
-- 목록의 MIT 라이선스는 개별 API의 요금, 데이터 재배포, 상업 이용을 허가하는 라이선스가 아닙니다. 원본 [LICENSE](LICENSE)와 스킬에 동봉된 [LICENSE](skills/k-publid-api-skill/LICENSE)를 보존하세요.
+- 목록의 MIT 라이선스는 개별 API의 요금, 데이터 재배포, 상업 이용을 허가하는 라이선스가 아닙니다. 원본 [LICENSE](LICENSE)와 스킬에 동봉된 [LICENSE](skills/k-public-api-skill/LICENSE)를 보존하세요.
