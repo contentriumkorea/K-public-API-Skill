@@ -1,13 +1,13 @@
-# Korean Public APIs — portable Agent Skill
+# K-publid-API-Skill — portable Agent Skill
 
 This fork of [yybmion/public-apis-4Kr](https://github.com/yybmion/public-apis-4Kr) adds an instruction-only skill for discovering Korean API candidates and checking their providers' documentation. The original catalog and attribution remain below.
 
 - [Installation and documented host compatibility](SKILLS.md) (Korean)
-- [Installable skill folder](skills/korean-public-apis) · [Skill-only ZIP releases](https://github.com/contentriumkorea/public-apis-4Kr/releases)
+- [Installable skill folder](skills/k-publid-api-skill) · [Skill-only ZIP releases](https://github.com/contentriumkorea/K-publid-API-Skill/releases/latest)
 
 ```text
 Install this skill from GitHub:
-https://github.com/contentriumkorea/public-apis-4Kr/tree/main/skills/korean-public-apis
+https://github.com/contentriumkorea/K-publid-API-Skill/tree/main/skills/k-publid-api-skill
 ```
 
 The same standard folder targets hosts that support Agent Skills; compatibility is documentation-based, not an all-products runtime certification. This is not an API connector. Provider authentication, prices, and reuse terms require current verification.

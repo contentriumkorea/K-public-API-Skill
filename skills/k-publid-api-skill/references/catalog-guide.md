@@ -4,15 +4,15 @@ This small navigation reference is bundled so the skill does not depend on files
 
 ## Source and provenance
 
-- Distribution fork: https://github.com/contentriumkorea/public-apis-4Kr
+- Distribution fork: https://github.com/contentriumkorea/K-publid-API-Skill
 - Original catalog: https://github.com/yybmion/public-apis-4Kr
 - Source snapshot used to prepare this guide: `5f0570083484a5b8ce10d71628f16eb811a3295e` (reviewed 2026-09-04).
 - Pinned Korean catalog: https://github.com/yybmion/public-apis-4Kr/blob/5f0570083484a5b8ce10d71628f16eb811a3295e/README.md
-- Live Korean catalog: https://github.com/contentriumkorea/public-apis-4Kr/blob/main/README.md
-- Machine-readable Korean catalog: https://raw.githubusercontent.com/contentriumkorea/public-apis-4Kr/main/README.md
-- Live global catalog, explained in Korean: https://github.com/contentriumkorea/public-apis-4Kr/blob/main/GLOBAL_PUBLIC_APIS_KR.md
-- Machine-readable global catalog: https://raw.githubusercontent.com/contentriumkorea/public-apis-4Kr/main/GLOBAL_PUBLIC_APIS_KR.md
-- English Korean-services catalog: https://github.com/contentriumkorea/public-apis-4Kr/blob/main/README_EN.md
+- Live Korean catalog: https://github.com/contentriumkorea/K-publid-API-Skill/blob/main/README.md
+- Machine-readable Korean catalog: https://raw.githubusercontent.com/contentriumkorea/K-publid-API-Skill/main/README.md
+- Live global catalog, explained in Korean: https://github.com/contentriumkorea/K-publid-API-Skill/blob/main/GLOBAL_PUBLIC_APIS_KR.md
+- Machine-readable global catalog: https://raw.githubusercontent.com/contentriumkorea/K-publid-API-Skill/main/GLOBAL_PUBLIC_APIS_KR.md
+- English Korean-services catalog: https://github.com/contentriumkorea/K-publid-API-Skill/blob/main/README_EN.md
 
 Use the live fork for discovery. If it is unavailable or appears stale, consult the original repository and record which revision or page was actually read. Neither repository is the API provider. Final access, field, freshness, price, and reuse claims come from the current provider documentation.
 
